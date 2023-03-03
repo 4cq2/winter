@@ -1,0 +1,58 @@
+<meta charset="utf-8">
+<style>
+table {
+   border-collapse: collapse;
+}
+td {
+   border-style: solid;
+   border-width: 1px;
+}
+td,
+th {
+   padding: 2px 8px;
+}
+</style>
+<table>
+   <tr>
+      <th>artist_n</th><td>{{ .ID }}</td>
+   </tr>
+   <tr>
+      <th>artist_s</th><td>{{ .Name }}</td>
+   </tr>
+   <tr>
+      <th>check_s</th><td>{{ .Check }}</td>
+   </tr>
+   <tr>
+      <th>mb_s</th><td>{{ .MB }}</td>
+   </tr>
+</table>
+{{ range .Album }}
+<hr>
+<table>
+   <tr>
+      <th>album_n</th><td>{{ .ID }}</td>
+   </tr>
+   <tr>
+      <th>album_s</th><td>{{ .Name }}</td>
+   </tr>
+   <tr>
+      <th>date_s</th><td>{{ .Date }}</td>
+   </tr>
+   <tr>
+      <th>url_s</th>
+      <td>
+         <a href="{{ .URL }}">{{ .URL }}</a>
+      </td>
+   </tr>
+</table>
+<table>
+   <tr>
+      <th>song_n</th><th>note_s</th><th>song_s</th>
+   </tr>
+   {{ range .Track }}
+   <tr>
+      <td>{{ .ID }}</td><td>{{ .Note }}</td><td>{{ .Name }}</td>
+   </tr>
+   {{ end }}
+</table>
+{{ end }}

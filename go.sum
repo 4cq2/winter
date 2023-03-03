@@ -1,0 +1,6 @@
+2a.pages.dev/nursery v1.1.6 h1:3w1MYW1xkzhuT2/W0ch23KkIEhFvleUfK8iPIYmyLTo=
+2a.pages.dev/nursery v1.1.6/go.mod h1:hWyldMwKPBdCyqAhE3AVTr09Y94lt2xaXdR/bBL3mjQ=
+2a.pages.dev/rosso v1.1.3 h1:4KdQHiA50d9h60Nvdll6itHl4isQudeQpZm1UgJ+vuY=
+2a.pages.dev/rosso v1.1.3/go.mod h1:8tU5iC2Wccy1N475SYju8lQQOni4w1Ijd3NbpqMwXaI=
+github.com/mattn/go-sqlite3 v1.14.16 h1:yOQRA0RpS5PFz/oikGwBEqvAWhWg5ufRz4ETLjwpU1Y=
+github.com/mattn/go-sqlite3 v1.14.16/go.mod h1:2eHXhiwb8IkHr+BDWZGa96P6+rkvnG63S2DGjv9HUNg=
